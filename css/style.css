@@ -1,0 +1,532 @@
+
+body{
+    font-family:  'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'blond';
+}
+
+
+
+
+
+
+
+
+
+.home{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.nav-active{
+    border-bottom: 1px solid white;
+}
+.navbar{
+     background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.ful-home{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.containt-home h1{
+font-size: 50px;    
+}
+
+
+.containt-home h2::after{
+    content: '';
+    animation: typing 3s linear alternate infinite;
+    
+    }
+    
+    
+    
+     @keyframes typing {
+    2%{
+        content: ' larry Daniels|';
+    }
+    4%{
+        content: ' larry Daniel|';
+    }
+    6%{
+        content: ' larry Danie|';
+    }
+    8%{
+        content: ' larry Dani|';
+    }
+    10%{
+        content: ' larry Dan|';
+    }
+    12%{
+        content: ' larry Da|';
+    }
+    14%{
+        content: ' larry D|';
+    }
+    16%{
+        content: ' larry |';
+    }
+    18%{
+        content: ' larry|';
+    }
+    20%{
+        content: ' larr|';
+    }
+    22%{
+        content: ' lar|';
+    }
+    24%{
+        content: ' la|';
+    }
+    26%{
+        content: ' l|';
+    }
+    28%{
+        content: ' |';
+    }
+    30%{
+        content: ' D|';
+    }
+    32%{
+        content: ' De';
+    }
+    34%{
+        content: ' Dev|';
+    }
+    36%{
+        content: ' Deve|';
+    }
+    38%{
+        content: ' Devel|';
+    }
+    40%{
+        content: ' Develo|';
+    }
+    42%{
+        content: ' Develop|';
+    }
+    44%{
+        content: ' Develope|';
+    }
+    46%{
+        content: ' Developer|';
+    }
+    48%{
+        content: ' Develope|';
+    }
+    50%{
+        content: ' Develop|';
+    }
+    52%{
+        content: ' Develo|';
+    }
+    54%{
+        content: ' Devel|';
+    }
+    56%{
+        content: ' Deve|';
+    }
+    58%{
+        content: ' Dev|';
+    }
+    60%{
+        content: ' De|';
+    }
+    62%{
+        content: ' D|';
+    }
+    64%{
+        content: ' D|';
+    }
+    66%{
+        content: ' De|';
+    }
+    68%{
+        content: ' Des|';
+    }
+    70%{
+        content: ' Desi|';
+    }
+    72%{
+        content: ' Desig|';
+    }
+    74%{
+        content: ' Design|';
+    }
+    76%{
+        content: ' Designe|';
+    }
+    78%{
+        content: ' Designer|';
+    }
+    80%{
+        content: ' Designe|';
+    }
+    82%{
+        content: ' Design|';
+    }
+    84%{
+        content: ' Desig|';
+    }
+    86%{
+        content: ' Desi|';
+    }
+    89%{
+        content: ' Des|';
+    }
+    92%{
+        content: ' De|';
+    }
+    95%{
+        content: ' D|';
+    }
+    100%{
+        content: ' |';
+    }
+    
+    
+     }
+
+
+
+
+
+
+
+.containt-home h2{
+    font-size: calc(3rem + 1em);
+    padding:  30px 0px;
+}
+
+
+.social i{
+    margin-left: 5px;
+padding: 10px;
+border-radius: 50%;
+color: white;
+background-color: rgba(0, 0, 0, 0.3);
+font-size: 12px;
+}
+.containt-about{
+    position: relative;
+    width: 100%;
+    height: 25px;
+    background-color: whitesmoke;
+}
+.about-space{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+
+.containt-about-one{
+    position: relative;
+    width: 100%;
+    height: 25px;
+    background-color: whitesmoke;
+    margin: 30px 0px;
+
+    
+}
+.about-space-one{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.containt-about-two{
+    position: relative;
+    width: 100%;
+    height: 25px;
+    background-color: whitesmoke;
+    margin: 30px 0px;
+
+    
+}
+.about-space-two{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+
+
+.button-one a{
+
+text-decoration: none;
+font-size: 13px;
+color: white;
+}
+.button-one{
+    
+    border-radius: 5px;
+    padding: 7px 25px ;
+    background-color: black;
+    transition: 1s;
+}
+
+.button-one:hover {
+
+background-color:white ;
+
+}
+.button-one:hover.button-one a{
+    color: black;
+}
+
+.button-two a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    
+}
+.button-two{
+    
+    border-radius: 5px;
+    padding: 7px 25px ;
+    background-color: white;
+    transition: 1s;
+}
+.button-two:hover {
+
+    background-color:black ;
+    
+    }
+    .button-two:hover.button-two a{
+        color: white;
+    }
+    
+    .about{
+        padding: 100px 0px;
+    }
+
+    .service
+    {
+        background-color: whitesmoke;
+    }
+    .service h2{
+        padding: 70px 0px;
+        font-size: 50px;
+    }
+
+
+
+.child-one i{
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: whitesmoke;
+    transition: 1s;
+}
+
+.child-one:hover.child-one i{
+    background-color: black;
+    color: white;
+}
+.portfolio h2{
+    padding: 70px 0px;
+        font-size: 50px;
+}
+
+
+.nav-tabs .nav-link{
+    color: black;
+    border: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border-bottom: 1px solid black;
+
+}
+.nav-tabs{
+    border: none;
+    padding-bottom: 30px;
+}
+
+
+.layer{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    /* transform: translateY(110%); */
+    opacity: 0;
+    transition: 0.8s;
+}
+.layer-parent:hover .layer{
+    opacity: 1;
+}
+
+.layer i{
+    font-size: 15px;
+margin-left: 5px;
+padding: 8px;
+border-radius: 50%;
+background-color: black;
+color: white;
+transition: 1s;
+}
+.layer i:hover{
+    color: black;
+    background-color: white;
+}
+.portfolio{
+    padding-bottom: 100px;
+}
+.trstimoials{
+    background-color: whitesmoke;
+    padding: 70px 0px;
+}
+
+
+.trstimoials h2{
+    font-size: 45px;
+    padding:  30px 0px;
+}
+
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.699);
+
+}
+
+
+.section-conatint i{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.section-conatint p{
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.full-blog{
+    background-color: whitesmoke;
+    padding-bottom: 150px;
+}
+
+
+.full-blog h2{
+    font-size: 40px;
+    padding:  30px 0px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.trstimoials-img img{
+    width: 100px;
+    border: 1px solid white;
+    border-radius:50%;
+}
+.containt-blog a{
+    color: black;
+    text-decoration: none;
+}
+.blog-link{
+    border-bottom: 2px solid black;
+}
+
+.carousel-indicators{
+    bottom: -70px;
+}
+.containt-blog img{
+    
+    transition: 0.6s;
+}
+ 
+
+
+.containt-blog img:hover{
+transform: scale(1.2);
+}
+
+
+.contact-us h2{
+    font-size: 40px;
+    padding:  30px 0px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.conatint-contact-us i{
+    font-size: 22px;
+padding: 22px;
+background-color: whitesmoke;
+border-radius: 50%;
+transition: 1s;
+}
+.conatint-contact-us:hover.conatint-contact-us i{
+background-color: black;
+color: white;
+}
+
+.contact-area{
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+ .contact-area textarea{
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+.edit-button button{
+padding: 10px 40px;
+border-radius: 5px;
+background-color: black;
+transition: 1s;
+margin-bottom: 100px;
+}
+.edit-button button a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.edit-button button:hover.edit-button button a{
+    color: black;
+}  
+
+.edit-button button:hover{
+background-color: white;
+}
+
+
+
+
+
+.end {
+padding: 20px;
+background-color: rgba(0, 0, 0, 0.822);
+
+}
+
+
+
